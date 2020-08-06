@@ -34,31 +34,34 @@
 
 	<div class="ui fixed inverted menu">
 		<div class="ui container"> 
-			<a href="#" class="item"> 
+			<a href="#Home" class="item"> 
 				Home
 			</a>
-			<a href="#" class="item"> 
+			<a href="#Education" class="item"> 
+				Education
+			</a>
+			<a href="#Publications" class="item"> 
 				Publications
 			</a>
-			<a href="#" class="item"> 
+			<a href="#Awards" class="item"> 
 				Awards
 			</a>
-			<a href="#" class="item"> 
-				Courses
+			<a href="#Invited Talks" class="item"> 
+				Invited Talks
 			</a>
-			<a href="#" class="item"> 
-				Contact
+			<a href="#Courses" class="item"> 
+				Courses
 			</a>
 		</div>
 	</div>
 	<div class="ui main text container">
-		<div class="ui segment">
+		<div class="ui segment" id='Home'>
 			<h1 class="ui header">Jaehong Kim</h1>
 			<div class="ui divider"></div>	
-			<img class="ui right floated image" src="D:\Jaehong\Dropbox\졸업사진\jaehong.jpg">
+			<img class="ui right floated image" src="./jaehong.jpg">
 			<div class="ui container" style="float: left; width: 400px;">
 				<p>
-					I am a Ph.D. student  at KAIST advised under Prof. Dongsu Han in Intelligent Network Architecture Laboratory. <br> 
+					I am a Ph.D. student  at KAIST advised under <a href="http://ina.kaist.ac.kr/~dongsuh/">Prof. Dongsu Han</a> in Intelligent Network Architecture Laboratory. <br> 
 					<br>
 					My research interests include deep learning based video delivery, video analytics and high-performance networked architecture. <br>
 				</p>	
@@ -77,12 +80,46 @@
 						</div>
 					</div>
 				<p>
-				<a>[Curriculum Vitae]</a> <a>[Google Scholar]</a>
+				<button class="ui primary button">
+					Curriculum Vitae
+				</button>
+				<button class="ui primary button">
+					<a href="https://scholar.google.com/citations?user=U55MerIAAAAJ&hl=en" style="color: inherit;"> Google Scholar </a>
+				</button>
 				</p>
 			</div>
 		</div>
-		<!--<div class="ui divider"></div>-->
-		<div class="ui segment">
+		<div class="ui segment" id='Education'>
+			<h3 class="ui header">Education</h3>
+			<div class="ui divider"></div>
+			<div class="ui relaxed divided list" style="margin: 0;">
+				<div class="item">
+					<i class="right triangle icon"></i>
+					  <div class="content">
+						<h4 class="ui header">Ph.D., School of Electrical Engineering, KAIST </h4>
+						<div class="description"> Feb 2020 - Feb 2024 (Expected) </div>
+						<div class="description"> Advisor: Dongsu Han </div>
+					  </div>
+				</div>
+				<div class="item">
+					<i class="right triangle icon"></i>
+					  <div class="content">
+						<h4 class="ui header">M.S., School of Electrical Engineering, KAIST </h4>
+						<div class="description"> Aug 2018 - Feb 2020</div>
+						<div class="description"> Advisor: Dongsu Han </div>
+					  </div>
+				</div>
+				<div class="item">
+				<i class="right triangle icon"></i>
+				  <div class="content">
+					<h4 class="ui header">B.S., School of Electrical Engineering, KAIST </h4>
+					<div class="description"> March 2014 - Aug 2018</div>
+					<div class="description"> Cum Laude </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+		<div class="ui segment" id='Publications'>
 			<h3 class="ui header">Publications</h3>
 			<div class="ui divider"></div>
 			<div class="ui relaxed divided list" style="margin: 0;">
@@ -92,14 +129,19 @@
 					<h4 class="ui header">Neural-Enhanced Live Streaming: Improving Live Video Ingest via Online Learning </h4>
 					<div class="description"> <b>Jaehong Kim*</b>, Youngmok Jung*, Hyunho Yeo, Juncheol Ye, Dongsu Han</div>
 					<div class="description">ACM SIGCOMM 2020</div>
-					<a>[webpage]</a> <a>[pdf]</a> 
-					<button class="ui youtube button">
-						<i class="youtube icon"></i>
-						10 min talk
+					<button class="ui button">
+						<a href="http://ina.kaist.ac.kr/~livenas/" style="color: inherit;"> webpage </a>
+					</button>
+					<button class="ui button">
+						<a href="http://ina.kaist.ac.kr/~livenas/livenas_sigcomm2020.pdf" style="color: inherit;"> pdf </a>
 					</button>
 					<button class="ui youtube button">
 						<i class="youtube icon"></i>
-						20 min talk
+						<a href=".." style="color: inherit;"> 10 min talk </a>
+					</button>
+					<button class="ui youtube button">
+						<i class="youtube icon"></i>
+						<a href="https://youtu.be/avkSHrXlBSA" style="color: inherit;"> 20 min talk </a>
 					</button>
 				  </div>
 				</div>
@@ -109,16 +151,21 @@
 					<h4 class="ui header">Neural Adaptive Content-aware Internet Video Delivery </h4>
 					<div class="description"> Hyunho Yeo, Youngmok Jung, <b>Jaehong Kim</b>, Jinwoo Shin, Dongsu Han</div>
 					<div class="description">USENIX OSDI 2018</div>
-					<a>[webpage]</a> <a>[pdf]</a> 
+					<button class="ui button">
+						<a href="http://ina.kaist.ac.kr/~nas/" style="color: inherit;"> webpage </a>
+					</button>
+					<button class="ui button">
+						<a href="https://www.usenix.org/system/files/osdi18-yeo.pdf" style="color: inherit;"> pdf </a>
+					</button>
 					<button class="ui youtube button">
 						<i class="youtube icon"></i>
-						demo
+						<a href="https://youtu.be/THGMsqFOxWU" style="color: inherit;"> demo </a>
 					</button>
 					</div>
 				</div>	
 			</div>
 		</div>
-		<div class="ui segment">
+		<div class="ui segment" id='Awards'>
 			<h3 class="ui header">Awards</h3>
 			<div class="ui divider"></div>
 			<div class="ui relaxed divided list" style="margin: 0;">
@@ -130,12 +177,21 @@
 				</div>
 			</div>
 		</div>
-		<div class="ui segment">
-			<h3 class="ui header">Courses</h3>
+		<div class="ui segment" id='Invited Talks'>
+			<h3 class="ui header">Invited Talks</h3>
 			<div class="ui divider"></div>
+			<div class="ui relaxed divided list" style="margin: 0;">
+				<div class="item">
+				<i class="right triangle icon"></i>
+				  <div class="content">
+					<h4 class="ui header">Neural-Enhanced Live Streaming: Improving Live Video Ingest via Online Learning </h4>
+					<div class="description">- Conference talk at ACM SIGCOMM, Aug 2020 </div>
+				  </div>
+				</div>
+			</div>
 		</div>
-		<div class="ui segment">
-			<h3 class="ui header">Contact</h3>
+		<div class="ui segment" id='Courses'>
+			<h3 class="ui header">Courses</h3>
 			<div class="ui divider"></div>
 		</div>
 	</div>
