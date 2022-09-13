@@ -15,16 +15,19 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 Hi, I am a Ph.D. student at KAIST advised under [Prof. Dongsu Han](http://ina.kaist.ac.kr/~dongsuh/) in [Intelligent Network Architecture Laboratory.](http://ina.kaist.ac.kr/)
 
-My research interest lies in any systems or applications that are networked; Internet services and applications, cloud, and systems for Artificial Intelligence. I enjoy tackling challenges that are yet explored in new systems or solving problems in existing ones with novel ideas. My goal is to provide solutions for those systems with a practical system design. I find the research more interesting when new opportunities or ideas can be discovered from other domains.
+My research interest lies in any systems or applications that are networked; Internet services and applications, cloud, and systems for Artificial Intelligence. I enjoy tackling challenges that are yet explored in new or existing systems and my goal is to provide solutions for them with practical system design. I find the research more interesting when novel opportunities or ideas are discovered from other domains and can be translated into networked systems.
 
 <i class="fas fa-map-marker"> </i> N1 ITC-Building #817, KAIST 
 
-<a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
+<a href="mailto:{{ site.email | encode_email }}" title="email">jaehong950305@gmail.com <i class="fas fa-envelope"></i></a> <span>&#124;</span>
+<a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar">Google Scholar <i class="ai ai-google-scholar"></i></a> <span>&#124;</span>
+<a href="https://github.com/{{ site.github_username }}" title="GitHub">Github <i class="fab fa-github"></i></a> <span>&#124;</span>
+<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">LinkedIn <i class="fab fa-linkedin"></i></a> <span>&#124;</span>
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

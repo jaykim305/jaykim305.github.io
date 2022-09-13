@@ -108,7 +108,7 @@
           <!-- Journal/Book title and date -->
           {% if entry.type == "article" -%}
             {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
-          {%- elsif ["inproceedings", "incollection"] contains entry.type -%}
+          {%- elsif entry.type == "inproceedings" -%}
             {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
           {%- else -%}
             {%- capture entrytype -%}{%- endcapture -%}
@@ -155,6 +155,9 @@
           {%- endif %}
           {%- if entry.blog %}
             <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
+          {%- endif %}
+          {%- if entry.project %}
+            <a href="{{ entry.project }}" class="btn btn-sm z-depth-0" role="button">Project</a>
           {%- endif %}
           {%- if entry.code %}
             <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
