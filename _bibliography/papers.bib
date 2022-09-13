@@ -1,5 +1,63 @@
 ---
 ---
+@inproceedings{kim2022cooptimizing,
+  title={Co-optimizing for Flow Completion Time in Radio Access Network},
+  author={Kim, Jaehong and Lee, Yunheon and Lim, Hwijoon and Jung, Youngmok and Kim, Song Min and Han, Dongsu},
+  abbr={CoNEXT},
+  booktitle={Proceedings of the 18th International Conference on emerging Networking EXperiments and Technologies (CoNEXT) (To appear)},
+  year={2022},
+  month={Dec},
+  selected={true}
+}
+
+@inproceedings{yeo2022sigcomm,
+  abbr={SIGCOMM},
+  author = {Yeo, Hyunho and Lim, Hwijoon and Kim, Jaehong and Jung, Youngmok and Ye, Juncheol and Han, Dongsu},
+  title = {NeuroScaler: Neural Video Enhancement at Scale},
+  year = {2022},
+  isbn = {9781450394208},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3544216.3544218},
+  doi = {10.1145/3544216.3544218},
+  abstract = {High-definition live streaming has experienced tremendous growth. However, the video quality of live video is often limited by the streamer's uplink bandwidth. Recently, neural-enhanced live streaming has shown great promise in enhancing the video quality by running neural super-resolution at the ingest server. Despite its benefit, it is too expensive to be deployed at scale. To overcome the limitation, we present NeuroScaler, a framework that delivers efficient and scalable neural enhancement for live streams. First, to accelerate end-to-end neural enhancement, we propose novel algorithms that significantly reduce the overhead of video super-resolution, encoding, and GPU context switching. Second, to maximize the overall quality gain, we devise a resource scheduler that considers the unique characteristics of the neural-enhancing workload. Our evaluation on a public cloud shows NeuroScaler reduces the overall cost by 22.3\texttimes{} and 3.0--11.1\texttimes{} compared to the latest per-frame and selective neural-enhancing systems, respectively.},
+  booktitle = {Proceedings of the ACM SIGCOMM 2022 Conference},
+  pages = {795–811},
+  numpages = {17},
+  keywords = {super-resolution, live streaming, deep neural networks},
+  location = {Amsterdam, Netherlands},
+  series = {SIGCOMM '22},
+  html={xx},
+  pdf={xx},
+  project={xx},
+  code={xx},
+  selected={true}  
+}
+
+@inproceedings{kim2020sigcomm,
+  abbr={SIGCOMM},
+  author = {Kim, Jaehong and Jung, Youngmok and Yeo, Hyunho and Ye, Juncheol and Han, Dongsu},
+  title = {Neural-Enhanced Live Streaming: Improving Live Video Ingest via Online Learning},
+  year = {2020},
+  isbn = {9781450379557},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3387514.3405856},
+  doi = {10.1145/3387514.3405856},
+  abstract = {Live video accounts for a significant volume of today's Internet video. Despite a large number of efforts to enhance user quality of experience (QoE) both at the ingest and distribution side of live video, the fundamental limitations are that streamer's upstream bandwidth and computational capacity limit the quality of experience of thousands of viewers.To overcome this limitation, we design LiveNAS, a new live video ingest framework that enhances the origin stream's quality by leveraging computation at ingest servers. Our ingest server applies neural super-resolution on the original stream, while imposing minimal overhead on ingest clients. LiveNAS employs online learning to maximize the quality gain and dynamically adjusts the resource use to the real-time quality improvement. LiveNAS delivers high-quality live streams up to 4K resolution, outperforming WebRTC by 1.96 dB on average in Peak-Signal-to-Noise-Ratio on real video streams and network traces, which leads to 12%-69% QoE improvement for live stream viewers.},
+  booktitle = {Proceedings of the ACM SIGCOMM 2020 Conference},
+  pages = {107–125},
+  numpages = {19},
+  keywords = {deep neural networks, super-resolution, video delivery, online learning, live streaming},
+  location = {Virtual Event, USA},
+  series = {SIGCOMM '20},
+  html={xx},
+  pdf={xx},
+  project={xx},
+  code={xx},
+  selected={true}  
+}
+
 @inproceedings{yeo2018osdi,
   abbr={OSDI},
   author = {Hyunho Yeo and Youngmok Jung and Jaehong Kim and Jinwoo Shin and Dongsu Han},
