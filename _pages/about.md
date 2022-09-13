@@ -30,6 +30,39 @@ My research interest lies in any systems or applications that are networked; Int
 <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">LinkedIn <i class="fab fa-linkedin"></i></a> <span>&#124;</span>
 <a href="{{ 'Jaehong_Kim_CV.pdf' | prepend: 'assets/pdf/' | relative_url}}" title="CV">CV <i class="fas fa-file-pdf	"></i></a> 
 
+
+
+<style>
+.education li {
+  /* margin-top:10px; */
+  margin-top:5px;
+}
+/* .education > li > ul {
+  margin-bottom:10px;
+} */
+</style>
+
+<h2 style="margin-top:20px">Educations</h2>
+<div>
+<ul class="education">
+    <li><b>Ph.D., School of Electrical Engineering, KAIST</b>
+      <ul>
+          <li>Feb 2020 - Feb 2024 (Expected), Advisor: Dongsu Han</li>
+      </ul>
+    </li>
+    <li><b>M.S., School of Electrical Engineering, KAIST</b>
+      <ul>
+          <li>Aug 2018 - Feb 2020, Advisor: Dongsu Han</li>
+      </ul>
+    </li>
+    <li><b>B.S., School of Electrical Engineering, KAIST</b>
+      <ul>
+          <li>March 2014 - Aug 2018, Cum Laude</li>
+      </ul>   
+    </li> 
+</ul>
+</div>
+
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
