@@ -91,10 +91,11 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics:  # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: G-QD15PXCLPG # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
-google_site_verification:  # your google-site-verification ID (Google Search Console)
+# <meta name="google-site-verification" content="6LTUbauzJC3AXKHMlNn5HmloDUheEVT9FVKFKveJfWo" />
+google_site_verification: 6LTUbauzJC3AXKHMlNn5HmloDUheEVT9FVKFKveJfWo # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
