@@ -28,7 +28,7 @@ My research interest lies in any systems or applications that are networked; Int
 <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar">Google Scholar <i class="ai ai-google-scholar"></i></a> <span>&#124;</span>
 <a href="https://github.com/{{ site.github_username }}" title="GitHub">Github <i class="fab fa-github"></i></a> <span>&#124;</span>
 <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">LinkedIn <i class="fab fa-linkedin"></i></a> <span>&#124;</span>
-<a href="xx" title="CV">CV <i class="fas fa-file-pdf	"></i></a> 
+<a href="{{ 'Jaehong_Kim_CV.pdf' | prepend: 'assets/pdf/' | relative_url}}" title="CV">CV <i class="fas fa-file-pdf	"></i></a> 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
