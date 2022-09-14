@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: My name in Korean is "김재홍".
+subtitle: 
 
 profile:
   align: right
@@ -24,9 +24,10 @@ social: false  # includes social icons at the bottom of the page
 <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">LinkedIn <i class="fab fa-linkedin"></i></a> <span>&#124;</span>
 <a href="{{ 'Jaehong_Kim_CV.pdf' | prepend: 'assets/pdf/' | relative_url}}" title="CV">CV <i class="fas fa-file-pdf	"></i></a> 
 
-Hi, I am a Ph.D. student at KAIST advised under [Prof. Dongsu Han](http://ina.kaist.ac.kr/~dongsuh/) and part of the [Intelligent Network Architecture Research Group.](http://ina.kaist.ac.kr/)
+Hi, I am a Ph.D. student in the [Intelligent Network Architecture Research Group](http://ina.kaist.ac.kr/) at KAIST, advised by [Prof. Dongsu Han](http://ina.kaist.ac.kr/~dongsuh/).
 
-My research interest lies in any systems or applications that are networked; Internet services and applications, cloud, and systems for Artificial Intelligence. Recently, my research focused on 1) 5G and beyond mobile systems and 2) video delivery with machine learning. I enjoy tackling challenges that are yet explored in new (or existing) systems and my goal is to provide solutions for them with practical system design. I look for new opportunities and ideas in different research fields to bring benefits to our systems.
+My research interest lies in any computer systems or applications that are networked; Internet services, cloud, and systems for Artificial Intelligence. Recently, my research was focused on 1) video delivery with machine learning and 2) traffic scheduling in 4G/5G mobile networks. I enjoy tackling challenges that are yet explored in new (or existing) systems and my goal is to provide solutions for them with practical design. 
+<!-- I look for new opportunities and ideas in different research fields to bring benefits to networked systems and applications. -->
 
 <!-- <i class="fas fa-map-marker"> </i> N1 ITC-Building #817, KAIST  -->
 
