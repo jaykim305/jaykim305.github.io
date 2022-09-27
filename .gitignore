@@ -9,9 +9,3 @@ _site
 Gemfile.lock
 vendor
 
-# cv files
-*.log
-*.fls
-*.aux
-*.fdb_latexmk
-*.gz
