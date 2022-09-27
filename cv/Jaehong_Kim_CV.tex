@@ -1,0 +1,177 @@
+\documentclass[margin,line,letter]{cv}
+\usepackage{url}
+\topmargin -.3in
+% \bmargin -.3in
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6in
+\textheight=10in
+\itemsep=0in
+\parsep=0in
+\newsectionwidth{1in}
+
+\def \pubitem {\vspace{0.07in}\item}
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\usepackage{times}
+\usepackage{cite}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{enumitem}
+
+\newcommand{\video}[1]{\underline{\textsf{\small{#1}}}}
+
+\DeclareGraphicsExtensions{.eps,.jpg,.png,.gif}
+\DeclareGraphicsRule{.png}{eps}{.bb}{}
+
+\begin{document}
+\name{\huge Jaehong Kim  \vspace*{.1in}}
+
+\begin{resume}
+
+\section{\sc Contact \\}
+\begin{tabular}{@{} p{2.94in} r}
+Ph.D Candidate\\
+School of Electrical Engineering, KAIST \\
+{\it Phone:} (+82)10-4105-7379 & Kim Byung Ho IT Building (N1) \#817 \\
+{\it Email:} jaehong950305@gmail.com & KAIST, 291 Daehak-ro, Yuseong-gu, Daejeon \\
+{\it Webpage:} \urlstyle{sf}\url{https://jaykim305.github.io/} & 305-701, Republic of Korea \\
+\end{tabular}
+
+\section{\sc Research Interests \\}
+High Performance Networked Systems, Deep Learning based Video Delivery, Video Analytics  \\
+
+\section{\sc Education \\}
+
+\textbf{Korea Advanced Institute of Science and Technology (KAIST)} \hfill \textsc{Feb.} 2020 $\sim$ Present \\
+Ph.D., in School of Electrical Engineering (Advisor: Prof. Dongsu Han) \vspace{0.2cm} \\ 
+\textbf{Korea Advanced Institute of Science and Technology (KAIST)} \hfill \textsc{Aug.} 2018 $\sim$ \textsc{Feb.} 2020 \\
+M.S., in School of Electrical Engineering (Advisor: Prof. Dongsu Han) \vspace{0.2cm} \\ 
+\textbf{Korea Advanced Institute of Science and Technology (KAIST)} \hfill \textsc{Feb.} 2014 $\sim$ \textsc{Aug.} 2018 \\
+B.S., in School of Electrical Engineering  (Cum Laude) \par 
+
+% \vspace{0.5cm}
+
+\section{\sc Publications \\}
+\textbf{Conference}
+(* denotes equal contribution.)
+\begin{itemize}[leftmargin=.2in]
+	\pubitem {\textbf{Co-optimizing for Flow Completion Time in Radio Access Network} \\ \underline{Jaehong Kim}, Yunheon Lee, Hwijoon Lim, Youngmok Jung, Song Min Kim, and Dongsu Han \\ \textbf{ACM CoNEXT 2022} (Acceptance Rate 29/151: 19.2\%)}	
+	\pubitem {\textbf{NeuroScaler: Neural Video Enhancement at Scale} \\ Hyunho Yeo, Hwijoon Lim, \underline{Jaehong Kim}, Yongmok Jung, Juncheol Ye and Dongsu Han \\ \textbf{ACM SIGCOMM 2022} (Acceptance Rate 55/279: 19.7\%)}	
+	\pubitem {\textbf{Neural-Enhanced Live Streaming: Improving Live Video Ingest via Online Learning} \\ \underline{Jaehong Kim*}, Youngmok Jung*, Hyunho Yeo, Juncheol Ye and Dongsu Han \\ \textbf{ACM SIGCOMM 2020} (Acceptance Rate 53/250: 21.2\%)}
+	\pubitem {\textbf{Neural Adaptive Content-aware Internet Video Delivery} \\ Hyunho Yeo, Youngmok Jung, \underline{Jaehong Kim}, Jinwoo Shin and Dongsu Han \\ \textbf{USENIX OSDI 2018} (Acceptance Rate 47/257: 18.2\%)}
+\end{itemize}
+
+% \vspace{0.3cm}
+
+%\textbf{Journal}
+%\begin{enumerate}
+%	\pubitem {}
+%\end{enumerate}
+\vspace{0.2cm}
+
+%\textbf{Poster}
+%\begin{enumerate}
+%	\pubitem {}
+%\end{enumerate}
+
+
+%\newpage
+
+\section{\sc Honors and\\ Awards \\}
+\begin{itemize}[leftmargin=*]
+	\item \textbf{28th Samsung Humantech Paper Award} \hfill Samsung Electronics, \textsc{Feb.} 2022 \\ Gold Prize (Co-author), Communication \& Networks. \par 
+	\item \textbf{\href{https://breakthroughs.kaist.ac.kr/?post_no=1913}{KAIST Breakthroughs of the Year 2021 Spring}} \hfill KAIST, 2021 \par 
+	\item \textbf{Donghwa Industry Moon Daewon AI Research Scholarship} \hfill KAIST, 2020 \par 
+	\item \textbf{USENIX OSDI Student Grant} \hfill USENIX, 2018 \par 
+\end{itemize}
+
+\vspace{0.3cm}
+
+\section{\sc Research \\ Projects \\}   
+\begin{itemize}[leftmargin=*]
+	\item{\textbf{Direct Volume Render Streaming} \hfill \textsc{Apr.} 2022 $\sim$ \textsc{July}. 2022 
+	\\ Implemented a DICOM 3D visualization app prototype for Oculus Quest2 using Nvidia \textbf{CloudXR} and Unity. 
+	Funded by INUCreative Inc.
+	\href{https://youtu.be/H_05eXnPR8I}{\video{Demo video link (CloudXR)}}, \href{https://youtu.be/D6MKOwsuRXU}{\video{Demo video link (Unity)}}}
+	\pubitem{\textbf{Neural Video Enhancement at Scale} \hfill \textsc{Oct.} 2021 $\sim$ \textsc{Dec.} 2021}
+	\pubitem{\textbf{Optimizing downlink scheduling in Radio Access Networks} \hfill \textsc{Aug.} 2020 $\sim$ Present
+	\\ Designed a practical flow scheduler for LTE/5G xNodeBs that achieves low-latency for Interactive traffic. 
+	\\ Implemented the system on top of \textbf{srsRAN} (i.e., open-source LTE/5G software radio suite) 
+	and \textbf{NS-3}. The scheduler can reduce webpage load time of Android phones up to \textbf{34\%}.
+	Funded by \textbf{Samsung Electronics Co., Ltd. Modem S/W R\&D Group.}}
+	\pubitem{\textbf{Deploying Credit-based Proactive Transport for Datacenter Networks}} \hfill \textsc{July.} 2020 $\sim$ \textsc{Jan.} 2021
+	\pubitem{\textbf{Neural-enhanced Live Streaming (LiveNAS)} \hfill \textsc{Nov.} 2018 $\sim$ \textsc{July.} 2020
+	\\ Designed a new live ingest system that enhances the origin live stream’s quality with online-trained super-resolution DNNs at the ingest server. The system delivers up to \textbf{69\%} QoE improvement. 
+	Implemented client, server with \textbf{WebRTC}, \textbf{PyTorch} and \textbf{ffmpeg}. Led the project as a \textbf{team leader}.}
+	\pubitem{\textbf{Neural-enhanced Adaptive Streaming (NAS)} \hfill \textsc{Nov.} 2017 $\sim$ \textsc{Oct.} 2018 \\ Designed a new video delivery system that integrates super-resolution DNNs with adaptive streaming. 
+	Implemented \textbf{dash.js} that handles DNN integrated ABR and super-resolution on MPEG video chunks.}
+\end{itemize}
+
+\vspace{0.2cm}
+
+\section{\sc Invited \\ Talks}
+\begin{itemize}[leftmargin=*]
+	\item{\textbf{Neural-Enhanced Live Streaming: Improving Live Video Ingest via Online Learning} \\ Conference talk at SIGCOMM, Aug., 2020. 
+	\href{https://youtu.be/1giVlO6Rumg}{\video{10 min talk video link}}, \href{https://youtu.be/avkSHrXlBSA}{\video{20 min talk video link}}}
+	\item{\textbf{Neural Adaptive Content-aware Internet Video Delivery} \\ Poster \& Demo Session at OSDI, Oct., 2018. 
+	\href{https://youtu.be/THGMsqFOxWU}{\video{Demo video link}}}
+	% \item{\textbf{NNStreamer Conference 2022 (NC22-Seoul)} 
+	% \\ Research talk at \href{https://github.com/nnstreamer/nnstreamer}{NNStreamer} Workshop, Feb., 2022}
+\end{itemize}
+
+%\section{\sc Software\\ Published \\}
+
+%\vspace{0.5cm}
+
+%\section{\sc Reviewer\\ Experience\\}
+
+%\vspace{0.5cm}
+
+
+\section{\sc Teaching Experience}
+\textbf{Teaching Assistant}
+\begin{itemize}[leftmargin=.2in] 
+	\item{\textbf{Advanced Computer Networking and Cloud Computing (EE618)}
+	\hfill \textsc{Spring} 2021}
+	\item{\textbf{Network Programming (EE324)}
+	\hfill \textsc{Fall} 2020, \textsc{Fall} 2021}
+	\item{\textbf{SK Hynix ASK Program}
+	\hfill \textsc{Aug.} 2020}
+	\item{\textbf{Systems and Applications of Artificial Intelligence and Machine Learning (EE793)}
+	\hfill \textsc{Spring} 2020}
+	\item{\textbf{Programming Structures for Electrical Engineering (EE209)}
+	\hfill \textsc{Spring}\&\textsc{Fall} 2019, \href{https://ee209.kaist.ac.kr/}{\textsc{Spring}\&\textsc{Fall} 2022}}
+\end{itemize}
+\vspace{0.1cm}
+% \section{\sc Courses}
+% \emph{Systems and Applications of Artificial Intelligence and Machine Learning (EE793)} \hfill \textsc{Spring} 2020 \\
+% \emph{Computer Architecture (EE511)} \hfill \textsc{Fall} 2019 \\
+% \emph{Startup Finance (KEI530)} \hfill \textsc{Fall} 2019 \\
+% \emph{GPU Proprogramming and Its Application (EE817)} \hfill \textsc{Spring} 2019 \\
+% \emph{Advanced Computer Networking and Cloud Computing (EE618)} \hfill \textsc{Spring} 2019 \\
+% \emph{Advanced Image Restoration and Quality Enhancement (EE838)} \hfill \textsc{Fall} 2018 \\
+% \emph{Recent Advances in Deep Learning (EE807)} \hfill \textsc{Fall} 2018 \\
+% \emph{Operating Systems and System Programming for Electrical Engineering (EE415)} \hfill \textsc{Spring} 2018 \\
+% \emph{Deep Learning and AlphaGo (EE488)} \hfill \textsc{Fall} 2017 \\
+%\vspace{0.3cm}
+\section{\sc Proficient Skills \\}
+Programming Languages: C, C++, Python, UNIX shell scripting, Latex, JavaScript \\
+Tools \& Frameworks: dash.js, ffmpeg, NS-3 Simulator, srsRAN, Docker, Azure Kinect \\ 
+Deep Learning Frameworks: Tensorflow, PyTorch \\
+Languages: Korean (native), English (IBT TOEFL 106, test date: 2015.08.22)
+
+\end{resume}
+\end{document}
