@@ -122,6 +122,9 @@
           {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
           <div class="periodical">
             {{ periodical | strip }}
+            {% if entry.highlight %}
+              <span class="bib-highlight">({{entry.highlight}})</span>
+            {% endif %}
           </div>
         {%- endif %}
         
