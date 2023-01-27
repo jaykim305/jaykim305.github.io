@@ -1,3 +1,16 @@
+# personal setup
+- build & run on personal mac:
+
+```bash
+$ bundle exec jekyll serve --host=0.0.0.0
+```
+
+- cv update  
+First, update cv in my cv git repo, then run:
+```bash
+$ cp ~/Dropbox/Personal/jaehong_webpage/cv/Jaehong_Kim_CV.pdf ./assets/pdf/Jaehong_Kim_CV.pdf
+```
+
 # al-folio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [core_contributors]: https://img.shields.io/badge/core_contributors-3-orange.svg 'Number of core contributors'
