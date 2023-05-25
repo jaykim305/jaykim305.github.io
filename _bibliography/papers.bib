@@ -1,19 +1,37 @@
 ---
 ---
+@inproceedings{lim2023neural,
+  abbr={HotStorage},
+  title={Neural Cloud Storage: Innovative Cloud Storage Solution for Cold Video},
+  author={Lim, Jinyeong and Ye, Juncheol and Kim, Jaehong and Lim, Hwijoon and Yeo, Hyunho and Han, Dongsu},
+  booktitle={Proceedings of the 15th ACM Workshop on Hot Topics in Storage and File Systems (To appear)},
+  year={2023},
+  month={July},
+  selected={true}
+}
+
 @inproceedings{lim2023flexpass,
   abbr={EuroSys},
-  html={},
+  html={https://dl.acm.org/doi/10.1145/3552326.3587453},
   author = {Lim, Hwijoon and Kim, Jaehong and Cho, Inho and Jang, Keon and Bai, Wei and Han, Dongsu},
-  title = {FlexPass: A Case for Flexible Credit-based Transport for Datacenter Networks (to appear)},
-  booktitle = {Proceedings of the Sixteenth European Conference on Computer Systems},
-  website = {xx},  
+  title = {FlexPass: A Case for Flexible Credit-Based Transport for Datacenter Networks},
   year = {2023},
+  isbn = {9781450394871},
   publisher = {Association for Computing Machinery},
   address = {New York, NY, USA},
-  location = {Roma, Italy},
+  url = {https://doi.org/10.1145/3552326.3587453},
+  doi = {10.1145/3552326.3587453},
+  abstract = {Proactive transports explicitly allocate bandwidth to each sender with credits which schedule packet transmission. While promising, existing proactive solutions share a stringent deployment requirement; they assume the perfect control of every link and packet in the network. However, the assumption breaks in practice because new transports are usually deployed gradually over time and legacy traffic always coexists. In this paper, we present FlexPass, a credit-based transport that takes deployment flexibility as a first-class citizen. FlexPass uses a novel combination of network and end-host designs to solve the problem of co-existence and gradual deployment. FlexPass leverages a proactive control loop to send credit-scheduled packets and a complementary reactive control loop to send unscheduled packets to utilize the spare bandwidth. Finally, FlexPass prevents queue buildups of both scheduled and unscheduled packets, and recovers lost packets efficiently. Our evaluation on the testbed shows that FlexPass maintains co-existence with legacy transports (DCTCP), while preserving the high-performance properties of the proactive transport. In large-scale simulations, we show that FlexPass delivers the best incremental benefits during the gradual deployment. We find traffic upgraded to FlexPass benefits from the bounded queue and reduced flow completion time by up to 44% compared to the legacy traffic, while minimizing the side-effect on the legacy flows.},
+  booktitle = {Proceedings of the Eighteenth European Conference on Computer Systems},
+  pages = {606–622},
+  numpages = {17},
+  keywords = {congestion control, datacenter networking},
+  location = {Rome, Italy},
   series = {EuroSys '23},
+  website = {https://ina.kaist.ac.kr/projects/flexpass/},
   selected = {true}
 }
+
 @inproceedings{kim2022cooptimizing,
   author = {Kim, Jaehong and Lee, Yunheon and Lim, Hwijoon and Jung, Youngmok and Kim, Song Min and Han, Dongsu},
   title = {OutRAN: Co-Optimizing for Flow Completion Time in Radio Access Network},
