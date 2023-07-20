@@ -8,7 +8,7 @@ $ bundle exec jekyll serve --host=0.0.0.0
 - cv update  
 First, update cv in my cv git repo, then run:
 ```bash
-$ cp ~/Dropbox/Personal/jaehong_webpage/cv/Jaehong_Kim_CV.pdf ./assets/pdf/Jaehong_Kim_CV.pdf
+$ cp ~/Dropbox/Personal/Jaehong_Kim_CV.pdf ./assets/pdf/Jaehong_Kim_CV.pdf
 ```
 
 # al-folio
