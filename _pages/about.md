@@ -52,7 +52,7 @@ I have worked on 1) applying neural enhancement to video streaming in a way that
 <ul class="education">
     <li><b>Ph.D., School of Electrical Engineering, KAIST</b>
       <ul>
-          <li>Feb 2020 - Feb 2024 (Expected), Advisor: Dongsu Han</li>
+          <li>Feb 2020 - Present, Advisor: Dongsu Han</li>
       </ul>
     </li>
     <li><b>M.S., School of Electrical Engineering, KAIST</b>
