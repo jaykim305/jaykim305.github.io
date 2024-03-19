@@ -6,7 +6,7 @@ subtitle: Jay Kim, 김재홍
 
 profile:
   align: right
-  image: jaehong.jpg
+  image: jaehong-profile-20240312.jpeg
   image_circular: false # crops the image to make it circular
   # address: >
   #   <p>555 your office number</p>
