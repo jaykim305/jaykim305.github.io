@@ -22,7 +22,7 @@ social: false  # includes social icons at the bottom of the page
 <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar">Google Scholar <i class="ai ai-google-scholar"></i></a> <span>&#124;</span>
 <!-- <a href="https://github.com/{{ site.github_username }}" title="GitHub">Github <i class="fab fa-github"></i></a> <span>&#124;</span> -->
 <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">LinkedIn <i class="fab fa-linkedin"></i></a> <span>&#124;</span>
-<a href="{{ 'jaehong_jobcv.pdf' | prepend: 'assets/pdf/' | relative_url}}" title="CV">CV <i class="fas fa-file-pdf	"></i></a> 
+<a href="{{ 'jaehongkim_cv.pdf' | prepend: 'assets/pdf/' | relative_url}}" title="CV">CV <i class="fas fa-file-pdf	"></i></a> 
 
 Hi, I am a Ph.D. student in [Intelligent Network Architecture Research Group](http://ina.kaist.ac.kr/) at KAIST, advised by [Prof. Dongsu Han](http://ina.kaist.ac.kr/~dongsuh/).
 
