@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Jay Kim, 김재홍
+subtitle: Jae Kim, 김재홍
 
 profile:
   align: right
@@ -24,12 +24,18 @@ social: false  # includes social icons at the bottom of the page
 <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">LinkedIn <i class="fab fa-linkedin"></i></a> <span>&#124;</span>
 <a href="{{ 'jaehongkim_cv.pdf' | prepend: 'assets/pdf/' | relative_url}}" title="CV">CV <i class="fas fa-file-pdf	"></i></a> 
 
-Hi, I am a Ph.D. student in [Intelligent Network Architecture Research Group](http://ina.kaist.ac.kr/) at KAIST, advised by [Prof. Dongsu Han](http://ina.kaist.ac.kr/~dongsuh/).
+Hi, I am a postdoctoral researcher in the Computer Science Department at [Carnegie Mellon University](https://csd.cmu.edu/), co-advised by [Prof. Srinivasan Seshan](https://www.cs.cmu.edu/~srini/) and [Prof. Anthony Rowe](https://users.ece.cmu.edu/~agr/). Prior to CMU, I received my Ph.D. in Electrical Engineering from KAIST, supervised by [Prof. Dongsu Han](https://ina.kaist.ac.kr/team/dongsuh), with a focus on enabling high-quality 2D and 3D live streaming.
+
+My research interests lie in networked computer systems and applications, including Internet services, cloud computing, and systems for Artificial Intelligence. 
+<!-- I aim to improve their performance and enhance user experience through novel approaches.  -->
+During my Ph.D., I worked on AI-based video delivery systems, 5G MAC scheduling, and datacenter networking. In my current role, I am exploring compression and delivery techniques for 3D video streaming to push the boundaries of immersive experiences.
+
+<!-- Hi, I am a Ph.D. student in [Intelligent Network Architecture Research Group](http://ina.kaist.ac.kr/) at KAIST, advised by [Prof. Dongsu Han](http://ina.kaist.ac.kr/~dongsuh/).
 
 My research interest lies in any computer systems or applications that are networked; Internet services, cloud, and systems for Artificial Intelligence. I focus on improving their performance to enhance the user experience with novel ideas.
 <!-- I enjoy tackling challenges that are yet explored in new systems. -->
 
-I have worked on 1) applying neural enhancement to video streaming in a way that maximizes viewer experience and 2) designing a practical cell-scale scheduler for latency-sensitive traffic in 4G/5G networks. 
+<!-- I have worked on 1) applying neural enhancement to video streaming in a way that maximizes viewer experience and 2) designing a practical cell-scale scheduler for latency-sensitive traffic in 4G/5G networks.  --> 
 <!-- and my goal is to provide solutions for them with innovative ideas. -->
 <!-- I look for new opportunities and ideas in different research fields to bring benefits to networked systems and applications. -->
 
