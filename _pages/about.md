@@ -58,7 +58,7 @@ My research interest lies in any computer systems or applications that are netwo
 <ul class="education">
     <li><b>Ph.D., School of Electrical Engineering, KAIST</b>
       <ul>
-          <li>Feb 2020 - Present, Advisor: Dongsu Han</li>
+          <li>Feb 2020 - Aug 2024, Advisor: Dongsu Han</li>
       </ul>
     </li>
     <li><b>M.S., School of Electrical Engineering, KAIST</b>
