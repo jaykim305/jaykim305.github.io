@@ -1,42 +1,178 @@
-name: deploy
+name: Deploy site
 
 on:
   push:
     branches:
       - master
       - main
+    paths:
+      - "assets/**"
+      - "_sass/**"
+      - "**.bib"
+      - "**.html"
+      - "**.js"
+      - "**.liquid"
+      - "**/*.md"
+      - "**.yml"
+      - "Gemfile"
+      - "Gemfile.lock"
+      - "!.github/workflows/axe.yml"
+      - "!.github/workflows/broken-links.yml"
+      - "!.github/workflows/deploy-docker-tag.yml"
+      - "!.github/workflows/deploy-image.yml"
+      - "!.github/workflows/docker-slim.yml"
+      - "!.github/workflows/lighthouse-badger.yml"
+      - "!.github/workflows/prettier.yml"
+      - "!lighthouse_results/**"
+      - "!CONTRIBUTING.md"
+      - "!CUSTOMIZE.md"
+      - "!FAQ.md"
+      - "!INSTALL.md"
+      - "!README.md"
   pull_request:
     branches:
       - master
       - main
+    paths:
+      - "assets/**"
+      - "_sass/**"
+      - "**.bib"
+      - "**.html"
+      - "**.js"
+      - "**.liquid"
+      - "**/*.md"
+      - "**.yml"
+      - "Gemfile"
+      - "Gemfile.lock"
+      - "!.github/workflows/axe.yml"
+      - "!.github/workflows/broken-links.yml"
+      - "!.github/workflows/deploy-docker-tag.yml"
+      - "!.github/workflows/deploy-image.yml"
+      - "!.github/workflows/docker-slim.yml"
+      - "!.github/workflows/lighthouse-badger.yml"
+      - "!.github/workflows/prettier.yml"
+      - "!lighthouse_results/**"
+      - "!CONTRIBUTING.md"
+      - "!CUSTOMIZE.md"
+      - "!FAQ.md"
+      - "!INSTALL.md"
+      - "!README.md"
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   deploy:
+    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-    - name: Setup Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.0.2'
-        bundler-cache: true
-    - name: Install deps
-      run: |
-        npm install -g mermaid.cli
-    - name: Setup deploy options
-      id: setup
-      run: |
-        git config --global user.name "GitHub Action"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        if [[ ${GITHUB_REF} = refs/pull/*/merge ]]; then # pull request
-          echo "::set-output name=SRC_BRANCH::${GITHUB_HEAD_REF}"
-          echo "::set-output name=NO_PUSH::--no-push"
-        elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. master, source etc
-          echo "::set-output name=SRC_BRANCH::${GITHUB_REF#refs/heads/}"
-        fi
-        echo "::set-output name=DEPLOY_BRANCH::gh-pages"
-    - name: Deploy website 
-      run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
-                    --src ${{ steps.setup.outputs.SRC_BRANCH }} 
-                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+      - name: Setup Ruby 💎
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3.5"
+          bundler-cache: true
+      - name: Setup Python 🐍
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip" # caching pip dependencies
+      - name: Update _config.yml ⚙️
+        uses: fjogeleit/yaml-update-action@main
+        with:
+          commitChange: false
+          valueFile: "_config.yml"
+          propertyPath: "giscus.repo"
+          value: ${{ github.repository }}
+      - name: Install and Build 🔧
+        run: |
+          sudo apt-get update && sudo apt-get install -y imagemagick
+          pip3 install --upgrade nbconvert
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+      - name: Purge unused CSS 🧹
+        run: |
+          npm install -g purgecss
+          purgecss -c purgecss.config.js
+      - name: Deploy 🚀
+        if: github.event_name != 'pull_request'
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _site
+잡담
+
+새로운 대화
+
+🤓 복잡한 것을 설명하다
+
+나의 여섯 살짜리 아이에게 설명할 수 있도록 인공 지능을 설명해 주세요.
+
+
+🧠 제안을 얻고 새로운 아이디어를 만드세요
+
+세계 주변에서 가장 좋은 10가지 여행 아이디어를 제공해 주세요
+
+
+💭 번역, 요약, 문법 수정 등을 더하십시오…
+
+나는 너를 사랑해"를 프랑스어로 번역하세요.
+
+
+GPT-4o Mini
+안녕하세요, 오늘 어떻게 도와 드릴까요?
+No module named 'torchvision.transforms.functional_tensor'
+GPT-4o Mini
+The error message "No module named 'torchvision.transforms.functional_tensor'" indicates that Python is unable to find the specified module, which suggests that there may be an issue with your installation of the `torchvision` library, or that the module you're trying to access does not exist in your version.
+Here are steps you can take to troubleshoot and resolve this issue:
+
+Check Your Imports: Make sure you are importing correctly. As of my last knowledge update in October 2023, the correct way to import functional transforms in torchvision is usually:
+from torchvision import transforms
+If you're specifically looking for tensor and functional transforms, these might be defined under other namespaces in certain versions.
+
+Check Version Compatibility: It's possible that the version of torchvision you have installed does not support functional_tensor. If you have installed torchvision, make sure it is in sync with your version of torch. You can check your installed versions with:
+import torch
+import torchvision
+
+print(torch.__version__)
+print(torchvision.__version__)
+If not compatible, you can upgrade both packages using:
+pip install torchvision --upgrade
+pip install torch --upgrade
+
+Install Specific Version: If you need a specific version due to compatibility reasons, you can install a specific version by specifying it:
+pip install torchvision==<desired_version>
+
+Check for Typographical Errors: Double-check the names and paths for any typographical errors. If you copied code online, ensure it's intended for your version of the library.
+
+Explore the Installed Modules: Sometimes it's helpful to look at what modules are available in your current environment. You can do this using:
+import torchvision
+print(dir(torchvision))
+
+Consult the Documentation: Since libraries are updated frequently, consult the official torchvision documentation for the most accurate and up-to-date information about available functions and modules.
+
+Virtual Environment: If you are working in a virtual environment, ensure that it is activated where you have installed the required packages.
+
+
+If you've tried all these suggestions and are still encountering issues, providing more context (including code snippets) may help further diagnose the problem.
+GPT-4o Mini
+coin image
+9
+업그레이드
+
+
+
+나에게 무엇이든 물어봐...
+
+
+
+Powered by AITOPIA - AITOPIA가 제공합니다 
+잡담
+묻다
+검색
+쓰다
+이미지
+챗PDF
+비전
+전체 페이지
