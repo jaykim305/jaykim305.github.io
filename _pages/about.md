@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-<a href="mailto:{{ site.email | encode_email }}" title="email">jaehong950305@gmail.com <i class="fas fa-envelope"></i></a> <span>&#124;</span>
+<a href="mailto:{{ site.email | encode_email }}" title="email">jaehong.kim@inha.ac.kr <i class="fas fa-envelope"></i></a> <span>&#124;</span>
 <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar">Google Scholar <i class="ai ai-google-scholar"></i></a> <span>&#124;</span>
 <!-- <a href="https://github.com/{{ site.github_username }}" title="GitHub">Github <i class="fab fa-github"></i></a> <span>&#124;</span> -->
 <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">LinkedIn <i class="fab fa-linkedin"></i></a> <span>&#124;</span>
