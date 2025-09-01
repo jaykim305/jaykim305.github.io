@@ -25,8 +25,8 @@ social: false  # includes social icons at the bottom of the page
 <a href="{{ 'jaehongkim_cv.pdf' | prepend: 'assets/pdf/' | relative_url}}" title="CV">CV <i class="fas fa-file-pdf	"></i></a> 
 
 
-Hi, I am an Assistant Professor in the Department of Artificial Intelligence at [Inha University](https://eng.inha.ac.kr/eng/3915/subview..do). Prior to joining Inha, I was a postdoctoral researcher at [Carnegie Mellon University](https://csd.cmu.edu/), where I worked with [Prof. Srinivasan Seshan](https://www.cs.cmu.edu/~srini/) and [Prof. Anthony Rowe](https://users.ece.cmu.edu/~agr/).
-I received my Ph.D. in Electrical Engineering from KAIST, advised by [Prof. Dongsu Han](https://ina.kaist.ac.kr/team/dongsuh).
+Hi, I am an Assistant Professor in the Department of Artificial Intelligence at [Inha University](https://eng.inha.ac.kr/eng/3915/subview..do). Prior to joining Inha, I was a postdoctoral researcher at Carnegie Mellon University, where I worked with [Prof. Srinivasan Seshan](https://www.cs.cmu.edu/~srini/) and [Prof. Anthony Rowe](https://users.ece.cmu.edu/~agr/).
+Before that, I received my Ph.D. in Electrical Engineering from KAIST, advised by [Prof. Dongsu Han](https://ina.kaist.ac.kr/team/dongsuh).
 
 My research interests lie in networked computer systems and applications, including Internet services, cloud computing, and systems for Artificial Intelligence. My current research focuses on developing efficient networking solutions for multimedia applications and AI workloads.
 
