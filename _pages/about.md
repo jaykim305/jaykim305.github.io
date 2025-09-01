@@ -24,11 +24,23 @@ social: false  # includes social icons at the bottom of the page
 <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">LinkedIn <i class="fab fa-linkedin"></i></a> <span>&#124;</span>
 <a href="{{ 'jaehongkim_cv.pdf' | prepend: 'assets/pdf/' | relative_url}}" title="CV">CV <i class="fas fa-file-pdf	"></i></a> 
 
-Hi, I am a postdoctoral researcher in the Computer Science Department at [Carnegie Mellon University](https://csd.cmu.edu/), co-advised by [Prof. Srinivasan Seshan](https://www.cs.cmu.edu/~srini/) and [Prof. Anthony Rowe](https://users.ece.cmu.edu/~agr/). Prior to CMU, I received my Ph.D. in Electrical Engineering from KAIST, supervised by [Prof. Dongsu Han](https://ina.kaist.ac.kr/team/dongsuh), with a focus on enabling high-quality 2D and 3D live streaming.
+
+Hi, I am an Assistant Professor in the Department of Artificial Intelligence at [Inha University](https://eng.inha.ac.kr/eng/3915/subview..do). Prior to joining Inha, I was a postdoctoral researcher at [Carnegie Mellon University](https://csd.cmu.edu/), where I worked with [Prof. Srinivasan Seshan](https://www.cs.cmu.edu/~srini/) and [Prof. Anthony Rowe](https://users.ece.cmu.edu/~agr/).
+I received my Ph.D. in Electrical Engineering from KAIST, advised by [Prof. Dongsu Han](https://ina.kaist.ac.kr/team/dongsuh).
+
+My research interests lie in networked computer systems and applications, including Internet services, cloud computing, and systems for Artificial Intelligence. My current research focuses on developing efficient networking solutions for multimedia applications and AI workloads.
+
+**I am actively looking for collaborations with researchers, industry, and students.
+Students interested in networking or multimedia/immersive systems are welcome to contact me at [jaehong.kim@inha.ac.kr](mailto:jaehong.kim@inha.ac.kr)**.
+
+<!-- I aim to improve their performance and enhance user experience through novel approaches.  -->
+<!-- During my Ph.D., I worked on AI-based video delivery systems, 5G MAC scheduling, and datacenter networking. During my postdoc at CMU, I explored compression and delivery techniques for 3D video streaming to push the boundaries of immersive experiences. My current research focuses on developing efficient networking solutions for multimedia applications and AI workloads. -->
+
+<!-- Hi, I am a postdoctoral researcher in the Computer Science Department at [Carnegie Mellon University](https://csd.cmu.edu/), co-advised by [Prof. Srinivasan Seshan](https://www.cs.cmu.edu/~srini/) and [Prof. Anthony Rowe](https://users.ece.cmu.edu/~agr/). Prior to CMU, I received my Ph.D. in Electrical Engineering from KAIST, supervised by [Prof. Dongsu Han](https://ina.kaist.ac.kr/team/dongsuh), with a focus on enabling high-quality 2D and 3D live streaming.
 
 My research interests lie in networked computer systems and applications, including Internet services, cloud computing, and systems for Artificial Intelligence. 
 <!-- I aim to improve their performance and enhance user experience through novel approaches.  -->
-During my Ph.D., I worked on AI-based video delivery systems, 5G MAC scheduling, and datacenter networking. In my current role, I am exploring compression and delivery techniques for 3D video streaming to push the boundaries of immersive experiences.
+<!-- During my Ph.D., I worked on AI-based video delivery systems, 5G MAC scheduling, and datacenter networking. In my current role, I am exploring compression and delivery techniques for 3D video streaming to push the boundaries of immersive experiences. -->
 
 <!-- Hi, I am a Ph.D. student in [Intelligent Network Architecture Research Group](http://ina.kaist.ac.kr/) at KAIST, advised by [Prof. Dongsu Han](http://ina.kaist.ac.kr/~dongsuh/).
 
