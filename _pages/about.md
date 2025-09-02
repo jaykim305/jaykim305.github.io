@@ -22,7 +22,10 @@ social: false  # includes social icons at the bottom of the page
 <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar">Google Scholar <i class="ai ai-google-scholar"></i></a> <span>&#124;</span>
 <!-- <a href="https://github.com/{{ site.github_username }}" title="GitHub">Github <i class="fab fa-github"></i></a> <span>&#124;</span> -->
 <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">LinkedIn <i class="fab fa-linkedin"></i></a> <span>&#124;</span>
-<a href="{{ 'jaehongkim_cv.pdf' | prepend: 'assets/pdf/' | relative_url}}" title="CV">CV <i class="fas fa-file-pdf	"></i></a> 
+<a href="{{ 'jaehongkim_cv.pdf' | prepend: 'assets/pdf/' | relative_url}}" title="CV">CV <i class="fas fa-file-pdf	"></i></a> <span>&#124;</span>
+<a href="https://www.youtube.com/@jaehongkim9579" title="YouTube">
+  YouTube <i class="fab fa-youtube"></i>
+</a> 
 
 <span title="Office Location">
   <i class="fas fa-map-marker-alt"></i> Room 209, Building #5 (South) @ Inha University (5S209)
@@ -32,7 +35,8 @@ social: false  # includes social icons at the bottom of the page
 Hi, I am an Assistant Professor in the Department of Artificial Intelligence at [Inha University](https://eng.inha.ac.kr/eng/3915/subview..do). Prior to joining Inha, I was a postdoctoral researcher at Carnegie Mellon University, where I worked with [Prof. Srinivasan Seshan](https://www.cs.cmu.edu/~srini/) and [Prof. Anthony Rowe](https://users.ece.cmu.edu/~agr/).
 Before that, I received my Ph.D. from KAIST, advised by [Prof. Dongsu Han](https://ina.kaist.ac.kr/team/dongsuh).
 
-My research interests lie in networked computer systems and applications, including Internet services, cloud computing, and systems for Artificial Intelligence. My current research focuses on developing efficient networking solutions for multimedia applications and AI workloads.
+My research interests lie in networked computer systems and applications, including Internet services, cloud computing, and systems for Artificial Intelligence. 
+<!-- My current research focuses on developing efficient networking solutions for multimedia applications and AI workloads. -->
 
 **I am actively looking for collaborations.
 Students interested in networking or multimedia/immersive systems are welcome to contact me at [jaehong.kim@inha.ac.kr](mailto:jaehong.kim@inha.ac.kr)**. 
