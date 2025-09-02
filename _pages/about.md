@@ -24,14 +24,22 @@ social: false  # includes social icons at the bottom of the page
 <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">LinkedIn <i class="fab fa-linkedin"></i></a> <span>&#124;</span>
 <a href="{{ 'jaehongkim_cv.pdf' | prepend: 'assets/pdf/' | relative_url}}" title="CV">CV <i class="fas fa-file-pdf	"></i></a> 
 
+<span title="Office Location">
+  <i class="fas fa-map-marker-alt"></i> Room 209, Building #5 (South) @ Inha University (5S209)
+</span>
+
 
 Hi, I am an Assistant Professor in the Department of Artificial Intelligence at [Inha University](https://eng.inha.ac.kr/eng/3915/subview..do). Prior to joining Inha, I was a postdoctoral researcher at Carnegie Mellon University, where I worked with [Prof. Srinivasan Seshan](https://www.cs.cmu.edu/~srini/) and [Prof. Anthony Rowe](https://users.ece.cmu.edu/~agr/).
-Before that, I received my Ph.D. in Electrical Engineering from KAIST, advised by [Prof. Dongsu Han](https://ina.kaist.ac.kr/team/dongsuh).
+Before that, I received my Ph.D. from KAIST, advised by [Prof. Dongsu Han](https://ina.kaist.ac.kr/team/dongsuh).
 
 My research interests lie in networked computer systems and applications, including Internet services, cloud computing, and systems for Artificial Intelligence. My current research focuses on developing efficient networking solutions for multimedia applications and AI workloads.
 
-**I am actively looking for collaborations with researchers, industry, and students.
-Students interested in networking or multimedia/immersive systems are welcome to contact me at [jaehong.kim@inha.ac.kr](mailto:jaehong.kim@inha.ac.kr)**.
+**I am actively looking for collaborations.
+Students interested in networking or multimedia/immersive systems are welcome to contact me at [jaehong.kim@inha.ac.kr](mailto:jaehong.kim@inha.ac.kr)**. 
+
+<p style="color:blue; text-decoration:underline; font-weight:bold;">
+  연구에 관심 있는 학생들은 위 메일 주소로 CV와 함께 편하게 연락 주세요.
+</p>
 
 <!-- I aim to improve their performance and enhance user experience through novel approaches.  -->
 <!-- During my Ph.D., I worked on AI-based video delivery systems, 5G MAC scheduling, and datacenter networking. During my postdoc at CMU, I explored compression and delivery techniques for 3D video streaming to push the boundaries of immersive experiences. My current research focuses on developing efficient networking solutions for multimedia applications and AI workloads. -->
@@ -65,22 +73,38 @@ My research interest lies in any computer systems or applications that are netwo
 } */
 </style>
 
+<h2 style="margin-top:20px">Work Experience</h2>
+<div>
+<ul class="work experience">
+    <li><b>Assistant Professor, Dept. of Artificial Intelligence, Inha University</b>
+      <ul>
+          <li>Sep. 2025 - Present</li>
+      </ul>
+    </li>
+    <li><b>Postdoctoral Researcher, Computer Science Dept., Carnegie Mellon University</b>
+      <ul>
+          <li>Aug. 2024 - Aug. 2025</li>
+      </ul>
+    </li>
+</ul>
+</div>
+
 <h2 style="margin-top:20px">Educations</h2>
 <div>
 <ul class="education">
     <li><b>Ph.D., School of Electrical Engineering, KAIST</b>
       <ul>
-          <li>Feb 2020 - Aug 2024, Advisor: Dongsu Han</li>
+          <li>Feb. 2020 - Aug. 2024, Advisor: Dongsu Han</li>
       </ul>
     </li>
     <li><b>M.S., School of Electrical Engineering, KAIST</b>
       <ul>
-          <li>Aug 2018 - Feb 2020, Advisor: Dongsu Han</li>
+          <li>Aug. 2018 - Feb. 2020, Advisor: Dongsu Han</li>
       </ul>
     </li>
     <li><b>B.S., School of Electrical Engineering, KAIST</b>
       <ul>
-          <li>March 2014 - Aug 2018, Cum Laude</li>
+          <li>March 2014 - Aug. 2018, Cum Laude</li>
       </ul>   
     </li> 
 </ul>
