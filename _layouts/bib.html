@@ -142,6 +142,12 @@
           {%- if entry.html %}
             <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">PAPER</a>
           {%- endif %}
+          {%- if entry.demo %}
+            <a href="{{ entry.demo }}" class="btn btn-sm z-depth-0" role="button">DEMO</a>
+          {%- endif %}
+          {%- if entry.ffvideo %}
+            <a href="{{ entry.ffvideo }}" class="btn btn-sm z-depth-0" role="button">Fast Forward VIDEO</a>
+          {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
             <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>

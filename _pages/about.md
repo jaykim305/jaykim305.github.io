@@ -42,7 +42,7 @@ My research interests lie in networked computer systems and applications, includ
 Students interested in networking or multimedia/immersive systems are welcome to contact me at [jaehong.kim@inha.ac.kr](mailto:jaehong.kim@inha.ac.kr)**. 
 
 <p style="color:blue; text-decoration:underline; font-weight:bold;">
-  연구에 관심 있는 학생들은 위 메일 주소로 CV와 함께 편하게 연락 주세요.
+  연구에 관심 있는 학생들은 위 메일 주소로 CV 첨부해서 연락 주세요.
 </p>
 
 <!-- I aim to improve their performance and enhance user experience through novel approaches.  -->
