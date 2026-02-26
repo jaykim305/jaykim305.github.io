@@ -38,11 +38,11 @@ Before that, I received my Ph.D. from KAIST, advised by [Prof. Dongsu Han](https
 My research interests lie in networked computer systems and applications, including Internet services, cloud computing, and systems for AI. 
 <!-- My current research focuses on developing efficient networking solutions for multimedia applications and AI workloads. -->
 
-**<i class="fas fa-lightbulb" style="color: #f0b429;"></i> I am actively looking for collaborations and recruiting graduate students (MS/Ph.D.). Undergrad students are also welcome. If you are highly motivated and interested in networking, multimedia, or systems for AI, please contact me at [jaehong.kim@inha.ac.kr](mailto:jaehong.kim@inha.ac.kr)**. 
+**<i class="fas fa-lightbulb" style="color: #f0b429;"></i> I am actively looking for collaborations and recruiting graduate students (MS/Ph.D.). Undergrad students are also welcome. If you are highly motivated and interested in networking, AI-based multimedia, or systems for AI, please contact me at [jaehong.kim@inha.ac.kr](mailto:jaehong.kim@inha.ac.kr)**. 
 
-<p style="color:blue; text-decoration:underline; font-weight:bold;">
+<!-- <p style="color:blue; text-decoration:underline; font-weight:bold;">
   연구에 관심 있는 학생들은 위 메일 주소로 CV 첨부해서 연락 주세요.
-</p>
+</p> -->
 
 <!-- I aim to improve their performance and enhance user experience through novel approaches.  -->
 <!-- During my Ph.D., I worked on AI-based video delivery systems, 5G MAC scheduling, and datacenter networking. During my postdoc at CMU, I explored compression and delivery techniques for 3D video streaming to push the boundaries of immersive experiences. My current research focuses on developing efficient networking solutions for multimedia applications and AI workloads. -->
