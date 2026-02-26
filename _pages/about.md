@@ -38,7 +38,7 @@ Before that, I received my Ph.D. from KAIST, advised by [Prof. Dongsu Han](https
 My research interests lie in networked computer systems and applications, including Internet services, cloud computing, and systems for AI. 
 <!-- My current research focuses on developing efficient networking solutions for multimedia applications and AI workloads. -->
 
-**<i class="fas fa-lightbulb" style="color: #f0b429;"></i> I am actively looking for collaborations and recruiting graduate students (MS/Ph.D.). Highly motivated students interested in networking, multimedia/immersive systems, or systems for AI are welcome to contact me at [jaehong.kim@inha.ac.kr](mailto:jaehong.kim@inha.ac.kr)**. 
+**<i class="fas fa-lightbulb" style="color: #f0b429;"></i> I am actively looking for collaborations and recruiting graduate students (MS/Ph.D.). Undergrad students are also welcome. If you are highly motivated and interested in networking, multimedia, or systems for AI, please contact me at [jaehong.kim@inha.ac.kr](mailto:jaehong.kim@inha.ac.kr)**. 
 
 <p style="color:blue; text-decoration:underline; font-weight:bold;">
   연구에 관심 있는 학생들은 위 메일 주소로 CV 첨부해서 연락 주세요.
@@ -85,7 +85,7 @@ My research interest lies in any computer systems or applications that are netwo
           <li>Joint appointment in Dept. of Electrical and Computer Engineering</li>
       </ul>
     </li>
-    <li><b>Postdoctoral Researcher, Computer Science Dept., Carnegie Mellon University</b>
+    <li><b>Postdoctoral Research Associate, Computer Science Dept., Carnegie Mellon University</b>
       <ul>
           <li>Aug. 2024 - Aug. 2025</li>
       </ul>
