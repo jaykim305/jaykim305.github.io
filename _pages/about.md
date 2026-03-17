@@ -32,13 +32,13 @@ social: false  # includes social icons at the bottom of the page
 </span>
 
 
-Hi, I am an Assistant Professor in the Department of Artificial Intelligence at [Inha University](https://eng.inha.ac.kr/eng/3915/subview..do), where I lead the [**NAIS Lab** (Networking, AI and Systems Lab)](https://sites.google.com/view/nais-lab/home). Prior to joining Inha, I was a postdoctoral researcher at Carnegie Mellon University, where I worked with [Prof. Srinivasan Seshan](https://www.cs.cmu.edu/~srini/) and [Prof. Anthony Rowe](https://users.ece.cmu.edu/~agr/).
+Hi, I am an Assistant Professor in the Department of Artificial Intelligence at [Inha University](https://eng.inha.ac.kr/eng/3915/subview..do), where I lead the [NAIS Lab (Networking, AI and Systems Lab)](https://sites.google.com/view/nais-lab/home). Prior to joining Inha, I was a postdoctoral researcher at Carnegie Mellon University, where I worked with [Prof. Srinivasan Seshan](https://www.cs.cmu.edu/~srini/) and [Prof. Anthony Rowe](https://users.ece.cmu.edu/~agr/).
 Before that, I received my Ph.D. from KAIST, advised by [Prof. Dongsu Han](https://ina.kaist.ac.kr/team/dongsuh).
 
 My research interests lie in networked computer systems and applications, including multimedia applications, Internet services, cloud computing, and systems for AI. 
 <!-- My current research focuses on developing efficient networking solutions for multimedia applications and AI workloads. -->
 
-**<i class="fas fa-lightbulb" style="color: #f0b429;"></i> I am actively looking for collaborations and recruiting graduate students (MS/Ph.D.). Undergrad students are also welcome. If you are highly motivated and interested in networking, AI-based multimedia, or systems for AI, please contact me at [jaehong.kim@inha.ac.kr](mailto:jaehong.kim@inha.ac.kr)**. 
+**<i class="fas fa-lightbulb" style="color: #f0b429;"></i> [NAIS Lab](https://sites.google.com/view/nais-lab/home) is actively looking for collaborations and recruiting graduate students (MS/Ph.D.). Undergrad students are also welcome. If you are highly motivated and interested in networking, AI-based multimedia, or systems for AI, please contact me at [jaehong.kim@inha.ac.kr](mailto:jaehong.kim@inha.ac.kr)**. 
 
 <!-- <p style="color:blue; text-decoration:underline; font-weight:bold;">
   연구에 관심 있는 학생들은 위 메일 주소로 CV 첨부해서 연락 주세요.
