@@ -114,6 +114,86 @@ My research interest lies in any computer systems or applications that are netwo
 </ul>
 </div>
 
+<h2 style="margin-top:20px">Academic Service</h2>
+
+<div>
+<ul class="academic-service">
+
+  <li>
+    <b>Reviewer</b>, IEEE/ACM Transactions on Networking, 
+    2023 - Present
+  </li>
+
+  <li>
+    <b>Session Chair</b>, IEEE ICNP, 
+    2025
+  </li>
+
+  <li>
+    <b>Reviewer</b>, IEEE ISMAR, 
+    2026
+  </li>
+
+  <li>
+    <b>External Review Committee</b>, USENIX ATC, 
+    2025
+  </li>
+
+  <li>
+    <b>Reviewer</b>, IEEE VR, 
+    2025
+  </li>
+
+  <li>
+    <b>Reviewer</b>, ACM Multimedia, 
+    2025
+  </li>
+
+</ul>
+</div>
+
+
+<h2 style="margin-top:20px">Honors &amp; Awards</h2>
+
+<div>
+<ul class="honors">
+
+  <li>
+    <b>NVIDIA Academic Grant Program</b>, NVIDIA, Jun. 2026
+  </li>
+
+  <li>
+    <b>NRF Outstanding Young Scientist Grant</b>, National Research Foundation of Korea (NRF), Mar. 2026
+  </li>
+
+  <li>
+    <b>NRF Postdoctoral Fellowship Program</b>, National Research Foundation of Korea (NRF), Sep. 2024
+  </li>
+
+  <li>
+    <b>Silver Prize, 29th Samsung Humantech Paper Award</b>, Samsung Electronics,
+    Feb. 2023
+  </li>
+
+  <li>
+    <b>Google Conference Scholarship</b>, Google, 
+    Dec. 2022
+  </li>
+
+  <li>
+    <b>Gold Prize, 28th Samsung Humantech Paper Award</b>, Samsung Electronics, 
+    Feb. 2022
+  </li>
+
+  <li>
+    <b>KAIST Breakthrough of the Year</b>, KAIST, 
+    2021
+  </li>
+
+</ul>
+</div>
+
+
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
